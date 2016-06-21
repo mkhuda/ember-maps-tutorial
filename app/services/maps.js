@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import MapUtil from '.../utils/google-maps';
+import MapUtil from '../utils/google-maps';
 
 export default Ember.Service.extend({
 
@@ -17,7 +17,7 @@ export default Ember.Service.extend({
     let element = this.get(`cachedMaps.${camelizedLocation}`);
     if (!element) {
       element = this.createMapElement();
-      this.get('mapUtil').createMap(element,location);
+      this.get('mapUtil').createMap(element, location);
       this.set(`cachedMaps.${camelizedLocation}`, element);
     }
     return element;
