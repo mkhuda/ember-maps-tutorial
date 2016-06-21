@@ -1,6 +1,6 @@
 # Super-emberJS
 
-A first paced EmberJS Project with Google Maps API Integration. (Modified From EmberJS Docs)
+A first paced EmberJS Project with Google Maps API Integration. (Modified From EmberJS Docs) Added Lazy Load Images from Ember Plugin.
 
 ## Prerequisites
 
@@ -49,4 +49,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
