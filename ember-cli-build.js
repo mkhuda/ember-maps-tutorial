@@ -19,6 +19,8 @@ module.exports = function(defaults) {
   // modules that you would like to import into your application
   // please specify an object with the list of modules as keys
   // along with the exports of each module as its value.
+  //import google maps after curl -o vendor/gmaps.js https://maps.googleapis.com/maps/api/js?v=3.22
+  app.import('vendor/gmaps.js');
 
   return app.toTree();
 };

@@ -1,0 +1,7 @@
+a {
+  cursor: pointer;
+}
+
+.lazy-image-container {
+  min-height: inherit;
+}
